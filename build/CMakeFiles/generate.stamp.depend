@@ -1,0 +1,31 @@
+# CMake generation dependency list for this directory.
+D:/Projects/OOPS Project/CMakeLists.txt
+D:/Projects/OOPS Project/build/CMakeFiles/3.25.0-rc3/CMakeCCompiler.cmake
+D:/Projects/OOPS Project/build/CMakeFiles/3.25.0-rc3/CMakeCXXCompiler.cmake
+D:/Projects/OOPS Project/build/CMakeFiles/3.25.0-rc3/CMakeRCCompiler.cmake
+D:/Projects/OOPS Project/build/CMakeFiles/3.25.0-rc3/CMakeSystem.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeCInformation.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/FindPackageMessage.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Platform/Windows.cmake
+E:/cmake-3.25.0-rc3-windows-x86_64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+E:/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake
+E:/opencv/build/x64/vc15/lib/OpenCVConfig.cmake
+E:/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake
+E:/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake
+E:/opencv/build/x64/vc15/lib/OpenCVModules.cmake

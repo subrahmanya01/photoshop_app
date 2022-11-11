@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/Projects/OOPS Project/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/oops_Project.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/oops_Project.dir/main.cpp.obj -c \"D:/Projects/OOPS Project/main.cpp\"",
+  "file": "D:/Projects/OOPS Project/main.cpp"
+},
+{
+  "directory": "D:/Projects/OOPS Project/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/oops_Project.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/oops_Project.dir/src/bw_matrix.cpp.obj -c \"D:/Projects/OOPS Project/src/bw_matrix.cpp\"",
+  "file": "D:/Projects/OOPS Project/src/bw_matrix.cpp"
+},
+{
+  "directory": "D:/Projects/OOPS Project/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/oops_Project.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/oops_Project.dir/src/matrix.cpp.obj -c \"D:/Projects/OOPS Project/src/matrix.cpp\"",
+  "file": "D:/Projects/OOPS Project/src/matrix.cpp"
+},
+{
+  "directory": "D:/Projects/OOPS Project/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/oops_Project.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/oops_Project.dir/src/rgb_matrix.cpp.obj -c \"D:/Projects/OOPS Project/src/rgb_matrix.cpp\"",
+  "file": "D:/Projects/OOPS Project/src/rgb_matrix.cpp"
+}
+]
