@@ -67,7 +67,7 @@ void select_operations(T *mt)
 
 int main()
 {
-    const string INPUT_IMAGE_PATH="input\\cat.png";
+    const string INPUT_IMAGE_PATH="input\\input.png";
     try
     {
           while(true)
