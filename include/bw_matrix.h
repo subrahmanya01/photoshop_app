@@ -27,7 +27,7 @@ class BWMatrix: public Matrix
     BWMatrix operator*(const int &val);
 
     void print() const;
-    void save_image();
+    void save_image(string imagePath);
     void display();
     friend std::ostream& operator<<(std::ostream& out,const BWMatrix& mat);
 };

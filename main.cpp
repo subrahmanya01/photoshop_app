@@ -9,6 +9,7 @@ template <class T>
 void select_operations(T *mt)
 {
     int goback=false,color_choice,border_width;
+    const string OUTPUT_IMAGE_PATH="output\\output.png";
     std::vector<int> color={0,0,0};
     while(true)
     {
@@ -31,7 +32,7 @@ void select_operations(T *mt)
             case 3:mt->rotate_left();
                    mt->rotate_left();
                    break;
-            case 4:mt->save_image();
+            case 4:mt->save_image(OUTPUT_IMAGE_PATH);
                    break;
             case 5:mt->horizontal_flip();
                    break;
@@ -64,8 +65,9 @@ void select_operations(T *mt)
     }
 }
 
-int main(){
-
+int main()
+{
+    const string INPUT_IMAGE_PATH="input\\cat.png";
     try
     {
           while(true)
@@ -78,10 +80,10 @@ int main(){
                 std::cin>>opt;
                 switch(opt)
                 {
-                    case 1:rgb.readImage("D:\\Projects\\OOPS Project\\a.png");
+                    case 1:rgb.readImage(INPUT_IMAGE_PATH);
                         select_operations(&rgb);
                         break;
-                    case 2:bw.readImage("D:\\Projects\\OOPS Project\\a.png");
+                    case 2:bw.readImage(INPUT_IMAGE_PATH);
                         select_operations(&bw);
                         break;
                     default: std::cout<<"Invalid selection\n";
@@ -92,7 +94,5 @@ int main(){
     {
         std::cout<<"Some error occured\n";
     }
-
     return 0;
-    
 }

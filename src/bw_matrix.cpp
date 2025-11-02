@@ -132,7 +132,7 @@ void BWMatrix:: display()
    cv::waitKey(0);
 }
 
-void BWMatrix::save_image()
+void BWMatrix::save_image(string imagePath)
 {
-   cv::imwrite("D:\\Projects\\OOPS Project\\output\\output.jpg",toOpencv());
+   cv::imwrite(imagePath,toOpencv());
 }

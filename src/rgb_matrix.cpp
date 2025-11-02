@@ -142,7 +142,7 @@ void RGBMatrix:: display()
    cv::waitKey(0);
 }
 
-void RGBMatrix::save_image()
+void RGBMatrix::save_image(string imagePath)
 {
-   cv::imwrite("D:\\Projects\\OOPS Project\\output\\output.jpg",toOpencv());
+   cv::imwrite(imagePath,toOpencv());
 }

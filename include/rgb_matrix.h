@@ -30,7 +30,7 @@ class RGBMatrix: public Matrix
     RGBMatrix operator*(const int &val);
 
     void print() const;
-    void save_image();
+    void save_image(string imagePath);
     RGBMatrix operator=(const Matrix &m)
     {
         RGBMatrix res(m);

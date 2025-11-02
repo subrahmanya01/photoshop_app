@@ -1,5 +1,0 @@
-D:/Projects/OOPS Project/build/CMakeFiles/oops_Project.dir
-D:/Projects/OOPS Project/build/CMakeFiles/runner.dir
-D:/Projects/OOPS Project/build/CMakeFiles/PACKAGE.dir
-D:/Projects/OOPS Project/build/CMakeFiles/ALL_BUILD.dir
-D:/Projects/OOPS Project/build/CMakeFiles/ZERO_CHECK.dir
