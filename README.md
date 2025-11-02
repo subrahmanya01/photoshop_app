@@ -66,13 +66,42 @@ This project follows a small layered architecture suitable for a CLI-based image
 - Core domain: matrix abstractions in `matrix.*`, `bw_matrix.*`, `rgb_matrix.*` — image data and operations.
 - IO: reading from `input/` and writing to `output/` via simple file helpers.
 
+### Class Diagram:
+![App Screenshot](./docs/images/class_diagram.png)
+
+### Component/Architecture Flow Diagram:
+![App Screenshot](./docs/images/architectural_high_level.png)
 
 ## Build & Run
 
 ### Prerequisites
-- CMake (3.0 or higher)
-- C++ compiler (Visual Studio 2019+ on Windows, GCC on Linux, or Clang on macOS)
-- VS Code (optional, but recommended)
+
+1. **CMake** (Version 3.5.0 or higher)
+   - Download from: https://cmake.org/download/
+   - Choose the Windows x64 Installer
+   - During installation, select the option to add CMake to the system PATH
+
+2. **Visual Studio** (2019 or 2022 with C++ support)
+   - Download from: https://visualstudio.microsoft.com/vs/community/
+   - During installation, select "Desktop development with C++"
+   - This will install the necessary C++ compiler and build tools
+
+3. **OpenCV** (Required for image processing)
+   - Download from: https://opencv.org/releases/
+   - Extract to a location on your system (e.g., C:\opencv)
+   - Add OpenCV's bin directory to your system PATH:
+     - Right-click on 'This PC' → Properties → Advanced system settings → Environment Variables
+     - Under System Variables, find and select 'Path'
+     - Click 'Edit' and add the path to OpenCV's bin directory (e.g., C:\opencv\build\x64\vc16\bin)
+   - Set the OpenCV_DIR environment variable:
+     - In the same Environment Variables window
+     - Under System Variables, click 'New'
+     - Variable name: OpenCV_DIR
+     - Variable value: path to OpenCV build directory (e.g., C:\opencv\build)
+
+4. **VS Code** (optional, but recommended)
+   - Download from: https://code.visualstudio.com/
+   - Install the "C/C++" extension
 
 ### Building with CMake (All Platforms)
 
@@ -174,10 +203,4 @@ The program runs in interactive mode with two main menus:
 - Make sure OpenCV is properly installed (program uses `opencv2` library)
 - The display window will show your changes in real-time
 - You can chain multiple operations before saving
-
-
-
-
-
-
 
